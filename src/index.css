@@ -16,7 +16,6 @@ img {
 
 img:hover {
   box-shadow: 2px 0 11px hsla(0, 0%, 100%, 0.664);
-
 }
 
 .display-image-header {
@@ -41,4 +40,47 @@ img:hover {
 .line:hover {
   max-width: 300px;
   border: 2px solid hsla(0, 0%, 100%, 0.737);
+}
+
+.list-category {
+  text-align: center;
+  font-weight: bold;
+  color: hsl(0, 0%, 70%);
+  margin-bottom: 10px;
+  border: 3px solid;
+  border-radius: 4px;
+  background-color: hsla(0, 0%, 30%, 0.459);
+  padding: 10px 20px;
+  transition: all 0.1s ease;
+}
+
+.list-category:hover {
+  background-color: hsla(0, 0%, 30%, 0.759);
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0 0 9px black;
+  transform: scaleY(1.1);
+}
+
+.list-items {
+  border-left: 3px solid hsla(0, 0%, 100%, 0.459);
+  border-right: 3px solid hsla(0, 0%, 100%, 0.459);
+  border-bottom: 3px solid 3px solid hsla(0, 0%, 30%, 0.459);
+  border-radius: 4px;
+}
+
+.list-items li {
+  text-align: center;
+  list-style: none;
+  padding: 3px;
+  color: hsl(0, 0%, 70%);
+  transition: all 0.1s ease;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 100%);
+  transform: translateX(8px);
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
 }
