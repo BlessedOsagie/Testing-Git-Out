@@ -1,7 +1,7 @@
-function ProfilePicture() {
-  const imageUrl = './src/assets/Profile-pic.jpg';
+// function ProfilePicture() {
+//   const imageUrl = './src/assets/Profile-pic.jpg';
 
-  return <img src={imageUrl}> </img>;
-}
+//   return <img src={imageUrl}> </img>;
+// }
 
-export default ProfilePicture;
+// export default ProfilePicture;

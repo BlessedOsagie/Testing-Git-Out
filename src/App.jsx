@@ -27,7 +27,7 @@ function App() {
       {vilain.length > 0 && <List items={vilain} category="Villians" />} */}
       {/* oooo Click Events */}
       {/* <Button /> */}
-      <ProfilePicture />
+      {/* <ProfilePicture /> */}
     </>
   );
 }
